@@ -1,4 +1,7 @@
-pipeline {
+import jenkins.model.*
+jenkins = Jenkins.instance
+
+pipeline  {
     agent {
         label AGENT-1
     }
